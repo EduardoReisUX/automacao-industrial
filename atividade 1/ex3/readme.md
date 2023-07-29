@@ -1,5 +1,3 @@
-# Automação Industrial
-
 ## Enunciado do exercício
 
 Este sistema é utilizado para detectar e contar o número de produtos que são transportados na linha de montagem. Quando são contados 5 produtos, o cilindro responsável por empacotar deverá ser ativado durante 2 segundos, e depois voltar à sua posição inicial.

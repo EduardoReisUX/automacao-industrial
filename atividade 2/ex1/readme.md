@@ -1,5 +1,3 @@
-# Automação Industrial
-
 ## Enunciado do exercício
 
 **Aplicação com tanques de mistura**: Aplicação constituída por dois silos que contém diferentes receitas e um tanque maior para mistura dessas receitas. O sistema deve gerenciar a mistura das receitas de acordo com o desejado. O botão de seleção de misturas B2, seleciona qual das duas misturas será colocada no tanque principal. Com o botão B2 na posição 0, a mistura A é selecionada e adicionada ao tanque principal se o botão B1 for acionado simultaneamente. Do mesmo modo, com o botão B2 na posição 1, a mistura B é selecionada e adicionada ao tanque principal se o botão B1 for acionado simultaneamente. O botão B0 fecha as válvulas interrompendo a adição de receitas.
@@ -36,6 +34,7 @@ Analisando o enunciado e a imagem, podemos concluir algumas condições do siste
 ### Equação booleana
 
 $$ Q_A = B_0 * B_1 * \overline{ Q_B } $$
+
 $$ Q_B = B_0 * B_1 * B_2 $$
 
 ### Implementação

@@ -1,6 +1,4 @@
-# Automação Industrial
-
-## Enunciado do exercício 2
+## Enunciado do exercício
 
 Elabore um programa para que um sistema de reservatório composto de uma válvula de entrada P, duas bombas (acionadas por M1 e M2), um alarme AL e quatro sensores de nível NA (a, b, c, d). As condições de funcionamento são as seguintes: se o nível estiver em “A”, então fecha-se a válvula P. Se o nível for inferior a “B”, então abre-se a válvula P. Acima de “B”, M1 e M2 bombeiam. Abaixo de “B”, somente M1 bombeia. Abaixo de “C”, soa o alarme AL. Abaixo de “D”, nenhuma das bombas deverá funcionar.
 
@@ -77,5 +75,4 @@ Com todas as respostas em mão, podemos finalmente montar o circuito no simulado
 
 ## Resolução em Ladder
 
-<!-- TODO: add imagem -->
 ![resolução em ladder](imgs/exercicio-2-ladder.png)
