@@ -63,8 +63,11 @@ Tabela Verdade do codificador de prioridades:
 Com as saídas padronizadas através do codificador, podemos definir a equação boolean para cada elemento do sistema.
 
 $$P = \overline{a} = \overline{S1 * S2}$$
+
 $$AL = \overline{c} = \overline{S0}$$
+
 $$M1 = d = V$$
+
 $$M2 = a = S1 * S2$$
 
 ### Implementação
