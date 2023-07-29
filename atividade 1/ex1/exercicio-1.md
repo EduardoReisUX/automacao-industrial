@@ -2,7 +2,7 @@
 
 ## Enunciado do exercício
 
-Deseja-se controlar o nível de uma caixa d´água entre um valor máximo e mínimo. Existem para isto dois sensores de nível, NA para nível máximo $(S_1)$ e NF, nível mínimo $(S_2)$. Para encher esta caixa, é utilizada uma bomba centrífuga que será ligada ou desligada em função do nível da caixa. Se o sensor $S_2$ estiver fechado, a bomba é ligada, permanecendo assim até que o sensor $S_1$ seja ativado. Quando $S_1$ é fechado, a bomba é desligada permanecendo assim até que o sensor $S_2$ feche novamente. Este controle automático pode ser desligado manualmente por um interruptor L.
+Deseja-se controlar o nível de uma caixa d'água entre um valor máximo e mínimo. Existem para isto dois sensores de nível, NA para nível máximo $(S_1)$ e NF, nível mínimo $(S_2)$. Para encher esta caixa, é utilizada uma bomba centrífuga que será ligada ou desligada em função do nível da caixa. Se o sensor $S_2$ estiver fechado, a bomba é ligada, permanecendo assim até que o sensor $S_1$ seja ativado. Quando $S_1$ é fechado, a bomba é desligada permanecendo assim até que o sensor $S_2$ feche novamente. Este controle automático pode ser desligado manualmente por um interruptor L.
 
 ![enunciado do exercicio 1](imgs/exercicio-1-enunciado.png)
 
