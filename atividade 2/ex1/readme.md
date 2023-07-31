@@ -39,8 +39,8 @@ $$ Q_B = B_0 * B_1 * B_2 $$
 
 ### Implementação
 
-![resolução em fbd](imgs/exercicio-1-fbd.png)
+![resolução em fbd](imgs/fbd.png)
 
 ## Resolução em Ladder
 
-![resolução em ladder](imgs/exercicio-1-ladder.png)
+![resolução em ladder](imgs/ladder.png)
