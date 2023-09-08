@@ -62,3 +62,23 @@ Requisitos:
 - [x] Entre 23:00 e 05:30, deixar o semáforo no estado intermitente.
 - [x] Implementar circuito com 2 semáforos funcionando juntos.
 - [ ] Implementar circuito com 3 semáforos funcionando juntos.
+
+## Implementação em LADDER
+
+### v1
+
+Primeira versão baseada na v3 do FDB, com dois semáforos funcionando corretamente. 
+
+Para a ter três semáforos funcionando, é necessário escolher outro modelo de CLP para ter mais 1 saída, pois o modelo atual possui apenas 8 saídas digitais.
+
+#### Primeira parte
+
+![Primeira parte da implementação em ladder](imgs/ladder-pt1.png)
+
+#### Segunda parte
+
+![Segunda parte da implementação em ladder](imgs/ladder-pt2.png)
+
+#### Última parte
+
+![Última parte da implementação em ladder](imgs/ladder-pt3.png)
