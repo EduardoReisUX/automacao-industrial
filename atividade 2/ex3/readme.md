@@ -42,9 +42,9 @@ $$ L = start \cdot \overline{stop} (S_1 + S_2 + S_3 + S_4) $$
 
 $$ C_1 = S_4 \overline{S_2} $$
 
-$$ C_2 = S_4 S_3 S_1 $$
+$$ C_2 = S_4 S_1 \overline{S_3} $$
 
-$$ C_3 = S_4 S_1 $$
+$$ C_3 = S_4 S_3 $$
 
 ### Implementação
 
@@ -52,4 +52,4 @@ $$ C_3 = S_4 S_1 $$
 
 ## Resolução em Ladder
 
-TODO:
+![resolução em ladder](imgs/ladder.png)
