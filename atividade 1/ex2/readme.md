@@ -30,7 +30,6 @@ Analisando o enunciado e a imagem, podemos obter as seguintes condições do sis
 
 A partir das condições propostas, foi construída a Tabela Verdade do sistema:
 
-<!-- TODO: add descrição -->
 | a | b | c | d | P | AL | M1 | M2 |
 | - | - | - | - | - | -- | -- | -- |
 | 1 | x | x | x | 0 | 0  | 1  | 1  |
@@ -49,7 +48,6 @@ A tabela verdade das entradas pode ser definida como um codificador de prioridad
 
 Tabela Verdade do codificador de prioridades:
 
-<!-- TODO: add descrição -->
 | a | b | c | d | S1 | S0 | V |
 | - | - | - | - | -- | -- | - |
 | 1 | x | x | x | 1  | 1  | x |
@@ -62,13 +60,13 @@ Tabela Verdade do codificador de prioridades:
 
 Com as saídas padronizadas através do codificador, podemos definir a equação boolean para cada elemento do sistema.
 
-$$P = \overline{a} = \overline{S1 * S2}$$
+$$P = \overline{a} = \overline{S_1 * S_0}$$
 
-$$AL = \overline{c} = \overline{S0}$$
+$$AL = \overline{c} = \overline{S_1} + \overline{S_0}$$
 
 $$M1 = d = V$$
 
-$$M2 = a = S1 * S2$$
+$$M2 = a = S_1 * S_0$$
 
 ### Implementação
 
@@ -78,4 +76,6 @@ Com todas as respostas em mão, podemos finalmente montar o circuito no simulado
 
 ## Resolução em Ladder
 
-![resolução em ladder](imgs/exercicio-2-ladder.png)
+![resolução em ladder parte 1](imgs/exercicio-2-ladder.png)
+
+![resolução em ladder parte 2](imgs/exercicio-2-ladder2.png)
