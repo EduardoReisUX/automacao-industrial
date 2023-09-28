@@ -40,4 +40,4 @@ ventilação.
 
 ### Ladder
 
-TODO
+![Resolução em Ladder](imgs/ladder.png)
