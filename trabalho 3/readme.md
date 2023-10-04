@@ -82,3 +82,15 @@ Para a ter três semáforos funcionando, é necessário escolher outro modelo de
 #### Última parte
 
 ![Última parte da implementação em ladder](imgs/ladder-pt3.png)
+
+### v2
+
+A segunda versão, que possui 3 semáforos, tem a mesma estrutura da anterior. A diferença é que foram feitas as ligações para os sinais do terceiro semáforo, que são idênticas ao primeiro semáforo, e o reset está incluído para os temporizadores do terceiro semáforo.
+
+![Primeira parte da implementação em ladder com 3 semáforos](imgs/ladder-3semaforos-pt1.png)
+
+## Implementação em SFC
+
+### Dois semáforos
+
+![Implementação em grafcet com dois semáforos](imgs/sfc.png)
